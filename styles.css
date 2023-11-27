@@ -92,6 +92,9 @@ h2 {
     margin: -5px 0 0 -20px;
     padding: 10px 20px 10px 20px;
     position: relative;
+
+    background: rgb(32, 24, 123);
+    background: linear-gradient(200deg, rgba(32, 24, 123, 1) 0%, rgba(12, 6, 84, 1) 100%);
 }
 
 .card .card-title::before {
@@ -104,9 +107,10 @@ h2 {
     height: 0;
     border-style: solid;
     border-width: 0 0 20px 20px;
-    border-color: transparent transparent #00b38f transparent;
+    border-color: transparent transparent rgb(32, 24, 123) transparent;
     transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
     z-index: -1;
+
 }
 
 .card .card-title::after {
@@ -119,7 +123,7 @@ h2 {
     height: 0;
     border-style: solid;
     border-width: 20px 0 20px 20px;
-    border-color: #00b38f transparent transparent transparent;
+    border-color: rgb(32, 24, 123) transparent transparent transparent;
     transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
     z-index: -1;
 }
