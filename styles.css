@@ -57,7 +57,7 @@ h2 {
 }
 
 .card {
-    height: 500px;
+    height: 300px;
     margin: 0 0 20px;
     position: relative;
 }
@@ -66,7 +66,7 @@ h2 {
     background: #666;
     display: inline-flex;
     overflow: hidden;
-    height: 400px;
+    height: 250px;
     width: auto;
     transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
     position: relative;
@@ -74,7 +74,7 @@ h2 {
 }
 
 .card .card-image img {
-    height: 400px;
+    height: 250px;
     object-fit: cover;
     transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
 }
@@ -239,7 +239,7 @@ h2 {
 .card [type=checkbox]:checked~.tgl-view .card-detail {
     opacity: 1;
     padding: 40px 20px;
-    min-height: 290px;
+    /* min-height: 290px; */
     max-height: 400px;
 }
 
@@ -263,6 +263,6 @@ h2 {
     }
 
     .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
