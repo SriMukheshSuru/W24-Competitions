@@ -7,6 +7,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: url(../bg.jpg);
 }
 
 body {
@@ -40,6 +41,7 @@ img {
 h1 {
     line-height: 1em;
     margin: 10px;
+    color: white;
 }
 
 h1 small {
@@ -92,6 +94,7 @@ h2 {
     margin: -5px 0 0 -20px;
     padding: 10px 20px 10px 20px;
     position: relative;
+    color: white;
 
     background: rgb(32, 24, 123);
     background: linear-gradient(200deg, rgba(32, 24, 123, 1) 0%, rgba(12, 6, 84, 1) 100%);
@@ -137,7 +140,7 @@ h2 {
 }
 
 .card .tgl-btn {
-    background: #0fc;
+    background: rgb(32, 24, 123);
     position: absolute;
     cursor: pointer;
     display: block;
@@ -151,7 +154,7 @@ h2 {
 }
 
 .card .tgl-btn span {
-    background: #000;
+    background: white;
     display: block;
     height: 2px;
     width: 50px;
@@ -163,7 +166,7 @@ h2 {
 .card .tgl-btn span::before,
 .card .tgl-btn span::after {
     content: "";
-    background: #000;
+    background: white;
     display: block;
     height: 2px;
     width: 50px;
@@ -188,7 +191,7 @@ h2 {
 }
 
 .card [type=checkbox]:checked+.tgl-btn span {
-    background: #0fc;
+    background:  rgb(32, 24, 123);
     width: 0;
 }
 
