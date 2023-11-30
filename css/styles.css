@@ -273,21 +273,6 @@ h2 {
     max-height: 400px;
 }
 
-.button--effect-1{
-  margin-left: 15%;
-}
-
-.button--effect-2{
-  margin-right: 15%;
-}
-
-.button--effect-1 .button__text{
-  color: black;
-}
-
-.button--line .morph-shape svg{
-  stroke: black;
-}
 
 .button--line:nth-child(2) .morph-shape svg{
   fill: rgb(32, 24, 123);
@@ -320,4 +305,22 @@ h2 {
 .button{
   width: 30%;
   height: 50px;
+}
+
+
+.button--effect-1{
+  margin-left: 10%;
+  width: 40%;
+}
+
+.button--effect-2{
+  margin-right: 10%;
+}
+
+.button--effect-1 .button__text{
+  color: black;
+}
+
+.button--line .morph-shape svg{
+  stroke: black;
 }
