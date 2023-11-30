@@ -222,6 +222,14 @@ h2 {
     max-height: 0;
 }
 
+.card [type=checkbox]:not(:checked)~.tgl-view .but {
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    min-height: 0;
+    max-height: 0;
+}
+
 .card [type=checkbox]:checked~.tgl-view .card-image {
     border-radius: 30px;
     height: 60px;
@@ -279,4 +287,9 @@ h2 {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.button{
+  width: 30%;
+  height: 50px;
 }
