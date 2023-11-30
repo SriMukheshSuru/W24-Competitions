@@ -230,6 +230,14 @@ h2 {
     max-height: 0;
 }
 
+.but{
+  background: #eee;
+  height: auto;
+  margin: 0;
+  justify-content: center;
+  transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+}
+
 .card [type=checkbox]:checked~.tgl-view .card-image {
     border-radius: 30px;
     height: 60px;
@@ -260,9 +268,29 @@ h2 {
 
 .card [type=checkbox]:checked~.tgl-view .card-detail {
     opacity: 1;
-    padding: 40px 20px;
+    padding: 40px 20px 10px;
     /* min-height: 290px; */
     max-height: 400px;
+}
+
+.button--effect-1{
+  margin-left: 15%;
+}
+
+.button--effect-2{
+  margin-right: 15%;
+}
+
+.button--effect-1 .button__text{
+  color: black;
+}
+
+.button--line .morph-shape svg{
+  stroke: black;
+}
+
+.button--line:nth-child(2) .morph-shape svg{
+  fill: rgb(32, 24, 123);
 }
 
 @media only screen and (min-width: 500px) {
